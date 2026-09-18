@@ -1,16 +1,15 @@
 import 'dart:io';
 
 void main() {
-  print("===== Welcome to Our Restaurant =====");
-  print("1. Burger      - \PKR 150 ");
-  print("2. Pizza       - \PKR 250 ");
+  print("=====Welcome to Our Restaurant=====");
+  print("1. Burger      - PKR 150 ");
+  print("2. Pizza       - PKR 250 ");
   print("3. Pasta       - \PKR 250");
   print("4. Biryani     - \PKR 150");
   print("5. Sandwich    - \PKR 150");
   print("6. Cold Drink  - \PKR 100");
   print("=====================================");
   print("Please enter the number of the item you want to order:");
-
 
   String? input = stdin.readLineSync();
   int choice = int.parse(input!);
